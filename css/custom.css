@@ -105,7 +105,8 @@ navbar-toggle collapsed, .icon-bar {
     background-color: white;
     border-right: 1px solid #B2C0CC;
     border-left: 1px solid #B2C0CC;
-    margin-bottom: 15px;
+
+
 }
 
 
@@ -116,7 +117,7 @@ navbar-toggle collapsed, .icon-bar {
 
 
 .contactFields{
-    margin-top:15px;
+
     margin-bottom:15px;
 }
 
@@ -154,7 +155,7 @@ border: 1px solid #D9E0E8;
 
     background-color: #E9EAEA;
     margin-bottom: 12px;
-    margin-top: 12px;
+
     /* cbackground-color:#D9E0E8; similar to above, but darker */
 }
 
@@ -232,8 +233,6 @@ border: 1px solid #D9E0E8;
     background-color: #E9EAEA;
     padding-left: 5px;
     border: 1px solid #D9E0E8;
-    margin-top:15px;
-
 }
 
 
@@ -247,6 +246,11 @@ border: 1px solid #D9E0E8;
 
 #welcome{
     width:100%;
+     background-color: white;
+    border: 1px solid #D9E0E8;
+        padding: 5px;
+        margin-bottom:10px;
+
 }
 
 #welcomeHeading{
