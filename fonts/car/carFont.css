@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'car';
+	src:url('car.eot?igc8xy');
+	src:url('car.eot?#iefixigc8xy') format('embedded-opentype'),
+		url('car.woff?igc8xy') format('woff'),
+		url('car.ttf?igc8xy') format('truetype'),
+		url('car.svg?igc8xy#car') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+.icon-car {
+	font-family: 'car';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.timing-belt:before {
+	content: "\e600";
+}
+
+.breaks .path1:before {
+	content: "\e601";
+	color: rgb(35, 31, 32);
+}
+.breaks .path2:before {
+	content: "\e602";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.breaks .path3:before {
+	content: "\e603";
+	margin-left: -1em;
+	color: rgb(35, 31, 32);
+}
+.breaks .path4:before {
+	content: "\e604";
+	margin-left: -1em;
+	color: rgb(35, 31, 32);
+}
+
+.battery:before {
+	content: "\e605";
+}
+
+.clutch:before {
+	content: "\e606";
+}
+
+.big-and-small-cogs:before {
+	content: "\e607";
+}
+
+.tire-change:before {
+	content: "\e608";
+}
+
+.diagLightEngine:before {
+	content: "\e609";
+}
+
+.gear-numbers:before {
+	content: "\e60a";
+}
+
+.fuel:before {
+	content: "\e60b";
+}
+
+.gearStick:before {
+	content: "\e60c";
+}
+
+.light-straight:before {
+	content: "\e60d";
+}
+
+.repairs:before {
+	content: "\e60e";
+}
+
+.oil:before {
+	content: "\e60f";
+}
+
+.timingBelt:before {
+	content: "\e610";
+}
+
+.wheel8:before {
+	content: "\e611";
+}
+
+.steering-wheel:before {
+	content: "\e612";
+}
+
+.wrenches:before {
+	content: "\e613";
+}
+
