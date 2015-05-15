@@ -10,6 +10,7 @@ body {
     border: 0px;
     margin: auto;
     color: #363636;
+     background-color: #F2F2F3;
 }
 
 ul {
@@ -63,6 +64,7 @@ img {
     /* background-color: #003580;*/
     background-color: #22356b;
     /*bbackground-color:#1428A0; samsung blue */
+    margin-bottom:15px;
 }
 
 .navbar-header {
@@ -105,7 +107,7 @@ navbar-toggle collapsed, .icon-bar {
     background-color: white;
     border-right: 1px solid #B2C0CC;
     border-left: 1px solid #B2C0CC;
-
+     margin-top:-15px;
 
 }
 
@@ -134,6 +136,7 @@ navbar-toggle collapsed, .icon-bar {
      line-height:52px;
     
      text-align: center;
+
 
 }
 
