@@ -1,16 +1,13 @@
 @font-face {
 	font-family: 'car';
-	src:url('car.eot?igc8xy');
-	src:url('car.eot?#iefixigc8xy') format('embedded-opentype'),
-		url('car.woff?igc8xy') format('woff'),
-		url('car.ttf?igc8xy') format('truetype'),
-		url('car.svg?igc8xy#car') format('svg');
+	src:url('car.eot?-fhsd28');
+	src:url('car.eot?#iefix-fhsd28') format('embedded-opentype'),
+		url('car.woff?-fhsd28') format('woff'),
+		url('car.ttf?-fhsd28') format('truetype'),
+		url('car.svg?-fhsd28#car') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
-
-
-
 
 .icon-car {
 	font-family: 'car';
@@ -24,6 +21,26 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.ABS:before {
+	content: "\e614";
+}
+
+.airbag:before {
+	content: "\e615";
+}
+
+.break-light:before {
+	content: "\e616";
+}
+
+.engine-light:before {
+	content: "\e617";
+}
+
+.temperature:before {
+	content: "\e618";
 }
 
 .timing-belt:before {
@@ -66,7 +83,7 @@
 	content: "\e608";
 }
 
-.diagLightEngine:before {
+.engine:before {
 	content: "\e609";
 }
 
@@ -78,7 +95,7 @@
 	content: "\e60b";
 }
 
-.gearStick:before {
+.gear-stick:before {
 	content: "\e60c";
 }
 
@@ -108,5 +125,9 @@
 
 .wrenches:before {
 	content: "\e613";
+}
+
+.exclamation-mark:before {
+	content: "\21";
 }
 

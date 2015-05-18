@@ -10,7 +10,6 @@ body {
     border: 0px;
     margin: auto;
     color: #363636;
-     background-color: #F2F2F3;
 }
 
 ul {
@@ -19,19 +18,24 @@ ul {
 }
 
 h1 {
-    font-family: 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     color: #22356b;
     margin-top: 2px;
     margin-bottom: 6px;
 }
 
-h2, h3{
-    font-family: 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+h2, h3 {
+    font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     color: #22356b;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
 
+h4 {
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.1em;
+    font-weight:500;
 }
 
 h5 {
@@ -45,18 +49,10 @@ img {
     height: auto;
 }
 
-
 .glyphicon {
 }
 
-#allContentUnderNavBar {
-    background-color: #F2F2F3;
-}
-
-#leftColumn {
-    /*  background-color: #F2F2F3;*/
-}
-
+/* -------------------   NAVBAR  ------------------- */
 .navbar {
     font-family: Helvetica, sans-serif, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     /*   border-bottom:  1px #6E7E9A; 
@@ -64,7 +60,6 @@ img {
     /* background-color: #003580;*/
     background-color: #22356b;
     /*bbackground-color:#1428A0; samsung blue */
-    margin-bottom:15px;
 }
 
 .navbar-header {
@@ -103,78 +98,119 @@ navbar-toggle collapsed, .icon-bar {
 }
 /* -------------------   /NAVBAR  ------------------- */
 
+
+#allContentUnderNavBar {
+    background-color: #F2F2F3;
+}
+
+#leftColumn {
+    /*  background-color: #F2F2F3;*/
+}
+
+
 #groupPhoto {
-    background-color: white;
     border-right: 1px solid #B2C0CC;
     border-left: 1px solid #B2C0CC;
-     margin-top:-15px;
-
 }
+
+/* -------------------   CONTACT FIELDS ------------------- */
+
+.contactFields {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+    .contactFields .media {
+        background-color: white;
+        border: 1px solid #D9E0E8;
+        height: 52px;
+    }
+
+    .contactFields .media-object {
+        background-color: #E9EAEA;
+        width: 52px;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    .contactFields .media-body {
+        line-height: 52px;
+    }
+
+    .contactFields .media-heading {
+    }
 
 
 .icon-sosa {
-    color: #475E8A;
+    /*Darker blue: color: #475E8A;*/
+    color: #337ab7; /*Default bootstrap link colour*/
     font-size: 2.5em;
 }
-
-
-.contactFields{
-
-    margin-bottom:15px;
+.contactDetails{
+    color: #337ab7;
 }
-
-.contactFields .media {
-    background-color: white;
-    border: 1px solid #D9E0E8;
-    height: 52px;
-
-}
-
-.contactFields .media-object {
-    background-color: #E9EAEA;
-    width:52px;
-     line-height:52px;
-    
-     text-align: center;
-
-
-}
-
-.contactFields .media-body {
-    line-height: 52px;
-}
-
-.contactFields .media-heading {
-
-}
-
 .clock {
 }
 
+.openingHours {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 20px;
+}
+/* -------------------   /CONTACT FIELDS ------------------- */
 
+/* -------------------   WELCOME ------------------- */
+#welcome {
+    width: 100%;
+    border: 1px solid #D9E0E8;
+    background-color: white;
+    padding: 10px;
+}
+
+#welcomeHeading {
+    color: #22356b;
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.5em;
+    line-height:5px;
+}
+
+/* -------------------   SERVICES ------------------- */
 
 .services {
-border: 1px solid #D9E0E8;
-
+    border: 1px solid #D9E0E8;
     background-color: #E9EAEA;
-    margin-bottom: 12px;
-
+    margin-bottom: 10px;
+    margin-top: 10px;
     /* cbackground-color:#D9E0E8; similar to above, but darker */
 }
 
 .eight-point-cog {
 }
 
-
-
+/*
 #servicesHeading {
-    margin-bottom: 5px;
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    background-color: #475E8A;
+    padding: 2px;
     font-size: 1.8em;
-    padding-left: 10px;
-    padding-top: 4px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}*/
+
+
+#servicesSubHeading {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #22356b;
-    font-family: Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    /* text-align: center;*/
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    text-align: center;
+}
+
+#diagnostics {
+    color: rgb(255, 106, 0);
 }
 
 .media {
@@ -183,25 +219,36 @@ border: 1px solid #D9E0E8;
     margin-top: 5px;
 }
 
-.media-heading{
-    color:#22356b;
+.services .media-heading {
+    color: #22356b;
+    padding-top: 18px;
+  
 }
+
 .services .media-object {
     background-color: #e3eff8;
 }
 
-.services .media-body {
+.services .warningLight {
+    background-color: black;
+    color: rgb(255, 106, 0);
 }
 
-.media-heading {
-    padding-top: 5px;
+.services .warningLightHeading {
+    color: rgb(255, 106, 0);
+}
+
+.services .media-body {
+      text-align:center;
+  
+      
 }
 
 .icon-car {
-    font-size: 60px;
+    font-size: 3.5em;
     /*color: #808e96; gray */
     color: #475E8A;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -216,6 +263,14 @@ border: 1px solid #D9E0E8;
 .thumbnail {
     padding: 0px;
 }
+
+#lastDiagnosticMediaBox{
+    margin-bottom:5px;
+}
+
+/* -------------------   /SERVICES ------------------- */
+
+
 /*
 #testimonials {
     background-color: white;
@@ -236,28 +291,4 @@ border: 1px solid #D9E0E8;
     background-color: #E9EAEA;
     padding-left: 5px;
     border: 1px solid #D9E0E8;
-}
-
-
-.openingHours{
-    padding-top:4px;
-    padding-bottom:4px;
-    line-height:20px;
-
-    
-}
-
-#welcome{
-    width:100%;
-     background-color: white;
-    border: 1px solid #D9E0E8;
-        padding: 5px;
-        margin-bottom:10px;
-
-}
-
-#welcomeHeading{
-     color: #22356b;
-    font-family: Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    font-size: 1.5em;
 }

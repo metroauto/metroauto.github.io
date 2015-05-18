@@ -67,7 +67,31 @@
                             <img src="images/workShop.jpg" />
                         </div>
                         <div id="welcome">
-                            <span id="welcomeHeading">Welcome</span> to Metro Auto Services. We have been in the business of car maintenance since 2005, specialising in sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text
+                            <span id="welcomeHeading">Welcome</span> to Metro Auto Services.
+                            We service all makes and models of cars, using only the highest quality manufacturer approved parts,
+                            and the highest industry standards of workmanship, focussing on reliability, performance, efficiency, comfort, and safety, while still providing good value for money.
+                            <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                More...
+                            </a>
+
+
+                            <div class="collapse" id="collapseExample">
+                                <p>
+                                    We use the latest specialist diagnostic tools and equipment, such as Tech 2 (Opel), IDS (Land Rover and Jaguar), CLIP (Renault), Planet (Peugeot), Citroen (Lexus).
+                                </p><p>
+                                    The meticulous level of detail we give to each job helps us to achieve the high level of customer service satisfaction we pride ourselves upon. Check out our Facebook page to see what some of our satisfied customers have to say.
+                                </p><p>
+                                    Thanks for visiting. <br/>
+                                    From Mark, Shane and all the team at Metro Auto.
+                                </p>
+                            </div>
+
+
+
+
+
+
+
 
 
                         </div>
@@ -83,7 +107,7 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    Tel: 01 813 9955
+                                    Tel: <span class="contactDetails">01 813 9955</span>
                                 </div>
                             </div>
 
@@ -94,7 +118,7 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    Shane: 086 388 1118
+                                    Shane: <span class="contactDetails">086 388 1118</span>
                                 </div>
                             </div>
 
@@ -105,7 +129,7 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    Mark: 087 417 3740
+                                    Mark: <span class="contactDetails">087 417 3740</span>
                                 </div>
                             </div>
 
@@ -118,7 +142,7 @@
                                 <div class="media-body">
 
 
-                                    Email:<a href="mailto:info@metroauto.ie"> info@metroauto.ie</a>
+                                    Email:<a href="mailto:info@metroauto.ie"><span class="contactDetails"> info@metroauto.ie </span></a>
 
                                 </div>
                             </div>
@@ -131,7 +155,7 @@
                                 </div>
                                 <div class="media-body">
                                     <div class="openingHours">
-                                        Open: Monday to Friday 8.30 - 17.00, Saturday 9 - 2 by appointment only
+                                        Open: Monday to Friday 8.30-17.00, Saturday 9-2 by appointment only
                                     </div>
                                 </div>
                             </div>
@@ -156,89 +180,156 @@
                 <!------------------- ROW 2---------------->
                 <div class="row">
 
-                    <!--   Column 1, of Row 2-->
+                    <!--   Row 2: Column 1  Services -->
                     <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 ">
 
                         <div class="services">
+                            <!--
+                                <div id="servicesHeading">-->
+                            <!--<span class="icon-sosa eight-point-cog"> </span>-->
+                            <!-- </div> -->
 
-                            <div id="servicesHeading">
-                                <!--<span class="icon-sosa eight-point-cog"> </span>-->Specialists in :
+                            <div id="servicesSubHeading">
+                                <span id="diagnostics"> Diagnostics, </span>Servicing, Repair &amp Replacement of:
                             </div>
 
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#">
-                                        <span class="media-object icon-car diagLightEngine"></span>
+                            <div class="row">
 
-                                    </a>
+
+
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+
+
+
+
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object warningLight icon-car engine"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading warningLightHeading">Engine Replacements</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="media ">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object warningLight icon-car temperature"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading warningLightHeading">Car Temperature</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="media ">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object warningLight icon-car break-light"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading warningLightHeading">Break Lights</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="media ">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object warningLight icon-car airbag"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading warningLightHeading">Airbags</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="media" id="lastDiagnosticMediaBox">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object warningLight icon-car ABS"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading warningLightHeading">Anti-lock Breaking Systems</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="media" id="lastDiagnosticMediaBox">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object warningLight icon-car oil"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading warningLightHeading">Oil Pressure</h4>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Engine Replacements</h4>
-                                    Description here
+
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object icon-car clutch"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Clutches</h4>
+
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object icon-car gear-stick"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Gear Boxes</h4>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object icon-car timingBelt"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Timing Belts / Chains</h4>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <span class="media-object icon-car light-straight"></span>
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Headlight Alignment</h4>
+
+                                        </div>
+                                    </div>
                                 </div>
+                            </div><!--/Embedded Services Row-->
+                        </div><!--/services-->
 
-                            </div>
+                    </div><!--/Row 2: Column 1-->
 
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#">
-                                        <span class="media-object icon-car clutch"></span>
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Clutches</h4>
-                                    Description here
-                                </div>
-
-                            </div>
-
-
-
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#">
-                                        <span class="media-object icon-car gearStick"></span>
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Gear Boxes</h4>
-                                    Description here
-                                </div>
-
-                            </div>
-
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#">
-                                        <span class="media-object icon-car timingBelt"></span>
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Timing Belts / Chains</h4>
-                                    Description here
-                                </div>
-
-                            </div>
-
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#">
-                                        <span class="media-object icon-car light-straight"></span>
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Headlight Alignment</h4>
-                                    Description here
-                                </div>
-
-                            </div>
-
-                            Note: need to make icon for: Breaks, Diagnostics, Welding
-
-                        </div><!--/services -->
-                    </div><!--/Column 1 of Row 2-->
-                    <!--   Column 2, of ROW 2-->
                     <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 ">
+                        <!-- Row 2: Column 2-->
+
 
                         <div id="facebookHeading">
                             <br />
