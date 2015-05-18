@@ -210,7 +210,7 @@ navbar-toggle collapsed, .icon-bar {
 }
 
 #diagnostics {
-    color: rgb(255, 106, 0);
+    color: #FF3300
 }
 
 .media {
@@ -231,11 +231,11 @@ navbar-toggle collapsed, .icon-bar {
 
 .services .warningLight {
     background-color: black;
-    color: rgb(255, 106, 0);
+    color: #FF3300;
 }
 
 .services .warningLightHeading {
-    color: rgb(255, 106, 0);
+    color: #FF3300;
 }
 
 .services .media-body {
