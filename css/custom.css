@@ -141,12 +141,12 @@ navbar-toggle collapsed, .icon-bar {
 
 
 .icon-sosa {
-    /*Darker blue: color: #475E8A;*/
+    color: #475E8A;
     color: #337ab7; /*Default bootstrap link colour*/
     font-size: 2.5em;
 }
 .contactDetails{
-    color: #337ab7;
+    color:#0066CC;
 }
 .clock {
 }
@@ -173,6 +173,12 @@ navbar-toggle collapsed, .icon-bar {
     line-height:5px;
 }
 
+.alignRight{
+  
+    float:right;
+    
+    
+}
 /* -------------------   SERVICES ------------------- */
 
 .services {
@@ -221,7 +227,7 @@ navbar-toggle collapsed, .icon-bar {
 
 .services .media-heading {
     color: #22356b;
-    padding-top: 18px;
+    padding-top: 10px;
   
 }
 
@@ -239,7 +245,7 @@ navbar-toggle collapsed, .icon-bar {
 }
 
 .services .media-body {
-      text-align:center;
+     padding-right: 100px;
   
       
 }

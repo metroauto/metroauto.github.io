@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'car';
-	src:url('car.eot?-fhsd28');
-	src:url('car.eot?#iefix-fhsd28') format('embedded-opentype'),
-		url('car.woff?-fhsd28') format('woff'),
-		url('car.ttf?-fhsd28') format('truetype'),
-		url('car.svg?-fhsd28#car') format('svg');
+	src:url('car.eot?-5yqq2j');
+	src:url('car.eot?#iefix-5yqq2j') format('embedded-opentype'),
+		url('car.woff?-5yqq2j') format('woff'),
+		url('car.ttf?-5yqq2j') format('truetype'),
+		url('car.svg?-5yqq2j#car') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,111 +23,135 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.ABS:before {
-	content: "\e614";
-}
-
-.airbag:before {
-	content: "\e615";
-}
-
-.break-light:before {
-	content: "\e616";
-}
-
-.engine-light:before {
+.tire:before {
 	content: "\e617";
 }
 
-.temperature:before {
-	content: "\e618";
-}
-
-.timing-belt:before {
-	content: "\e600";
-}
-
-.breaks .path1:before {
-	content: "\e601";
-	color: rgb(35, 31, 32);
-}
-.breaks .path2:before {
-	content: "\e602";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.breaks .path3:before {
-	content: "\e603";
-	margin-left: -1em;
-	color: rgb(35, 31, 32);
-}
-.breaks .path4:before {
-	content: "\e604";
-	margin-left: -1em;
-	color: rgb(35, 31, 32);
-}
-
-.battery:before {
-	content: "\e605";
-}
-
 .clutch:before {
-	content: "\e606";
-}
-
-.big-and-small-cogs:before {
-	content: "\e607";
-}
-
-.tire-change:before {
-	content: "\e608";
+	content: "\e620";
 }
 
 .engine:before {
-	content: "\e609";
+	content: "\e621";
 }
 
-.gear-numbers:before {
-	content: "\e60a";
-}
-
-.fuel:before {
-	content: "\e60b";
-}
-
-.gear-stick:before {
-	content: "\e60c";
-}
-
-.light-straight:before {
-	content: "\e60d";
-}
-
-.repairs:before {
-	content: "\e60e";
-}
-
-.oil:before {
-	content: "\e60f";
+.gearStick:before {
+	content: "\e622";
 }
 
 .timingBelt:before {
+	content: "\e623";
+}
+
+.ABS:before {
+	content: "\e600";
+}
+
+.airbag:before {
+	content: "\e601";
+}
+
+.battery:before {
+	content: "\e602";
+}
+
+.brakes .path1:before {
+	content: "\e603";
+	color: rgb(35, 31, 32);
+}
+.brakes .path2:before {
+	content: "\e604";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.brakes .path3:before {
+	content: "\e605";
+	margin-left: -1em;
+	color: rgb(35, 31, 32);
+}
+.brakes .path4:before {
+	content: "\e606";
+	margin-left: -1em;
+	color: rgb(35, 31, 32);
+}
+
+.break-fluid:before {
+	content: "\e607";
+}
+
+.break-light:before {
+	content: "\e608";
+}
+
+.DEF:before {
+	content: "\e609";
+}
+
+.DPF:before {
+	content: "\e60a";
+}
+
+.DPF2:before {
+	content: "\e60b";
+}
+
+.engine2:before {
+	content: "\e60c";
+}
+
+.ESP:before {
+	content: "\e60d";
+}
+
+.fuel:before {
+	content: "\e60e";
+}
+
+.light:before {
+	content: "\e60f";
+}
+
+.light-straight:before {
 	content: "\e610";
 }
 
-.wheel8:before {
+.oil:before {
 	content: "\e611";
 }
 
-.steering-wheel:before {
+.overdrive:before {
 	content: "\e612";
 }
 
-.wrenches:before {
+.reduced-power:before {
 	content: "\e613";
 }
 
-.exclamation-mark:before {
-	content: "\21";
+.security:before {
+	content: "\e614";
+}
+
+.service:before {
+	content: "\e615";
+}
+
+.temperature:before {
+	content: "\e616";
+}
+
+.tire-pressure:before {
+	content: "\e61c";
+}
+
+.transmission:before {
+	content: "\e61d";
+}
+
+.wheel-alignment:before {
+	content: "\e61e";
+}
+
+.wrench-screwdriver:before {
+	content: "\e61f";
 }
 
