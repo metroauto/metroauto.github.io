@@ -12,6 +12,8 @@ body {
     color: #363636;
 }
 
+a, a:hover {text-decoration: none}
+
 ul {
     list-style-type: none;
     padding-left: 10px;
@@ -142,11 +144,16 @@ navbar-toggle collapsed, .icon-bar {
 
 .icon-sosa {
     color: #475E8A;
-    color: #337ab7; /*Default bootstrap link colour*/
+    /*color: #337ab7; Default bootstrap link colour*/
     font-size: 2.5em;
 }
 .contactDetails{
-    color:#0066CC;
+    color:#475E8A;
+}
+
+ a:hover{
+    color: #337ab7;
+    background-color: green;
 }
 .clock {
 }
@@ -192,7 +199,7 @@ navbar-toggle collapsed, .icon-bar {
 .eight-point-cog {
 }
 
-/*
+
 #servicesHeading {
     font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     background-color: #475E8A;
@@ -202,12 +209,12 @@ navbar-toggle collapsed, .icon-bar {
     height: 100%;
     color: white;
     text-align: center;
-}*/
+}
 
 
 #servicesSubHeading {
     margin-bottom: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #22356b;
@@ -245,7 +252,7 @@ navbar-toggle collapsed, .icon-bar {
 }
 
 .services .media-body {
-     padding-right: 100px;
+
   
       
 }
