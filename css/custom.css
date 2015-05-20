@@ -151,10 +151,12 @@ navbar-toggle collapsed, .icon-bar {
     color:#475E8A;
 }
 
- a:hover{
-    color: #337ab7;
+.contactDetails a{
+    color: red;
     background-color: green;
 }
+
+
 .clock {
 }
 
