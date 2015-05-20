@@ -12,7 +12,12 @@ body {
     color: #363636;
 }
 
-a, a:hover {text-decoration: none}
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+     background-color: transparent;
+}
+
+
 
 ul {
     list-style-type: none;
@@ -88,9 +93,13 @@ img {
 
 .navbar a {
     color: #F5F7FD;
+     padding: 12px;
 }
 /*#0084b4 - twitter blue*/
 
+.nav>li>a:hover, .nav>li>a:focus{
+    background-color:transparent; /*Bootstrap override*/
+}
 navbar-toggle collapsed, .icon-bar {
     background-color: #F5F7FD;
 }
@@ -143,17 +152,23 @@ navbar-toggle collapsed, .icon-bar {
 
 
 .icon-sosa {
-    color: #475E8A;
+ 
     /*color: #337ab7; Default bootstrap link colour*/
     font-size: 2.5em;
 }
-.contactDetails{
-    color:#475E8A;
+
+
+a{
+    color:#3b5998;
 }
 
-.contactDetails a{
-    color: red;
-    background-color: green;
+a:hover{
+    color:#0066FF;
+
+}
+
+a:active{
+    color:#193EAC;
 }
 
 
