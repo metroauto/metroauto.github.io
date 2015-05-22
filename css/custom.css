@@ -229,6 +229,8 @@ a {
     font-size: 1.2em;
     padding-top: 15px;
     padding-bottom: 10px;
+    padding-left:2px;
+    padding-right:2px;
     color: #22356b;
     font-family: Calibri, Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     text-align: center;
