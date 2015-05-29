@@ -123,6 +123,14 @@ navbar-toggle collapsed, .icon-bar {
     border-right: 1px solid #B2C0CC;
 }
 
+
+#photoDescription{
+    color:white;
+    margin-top: -22px;
+    padding-left: 5px;
+      
+
+}
 /* -------------------   CONTACT FIELDS ------------------- */
 
 .contactFields {
@@ -231,13 +239,16 @@ a {
     padding-bottom: 10px;
     padding-left:2px;
     padding-right:2px;
-    color: #22356b;
     font-family: Calibri, Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     text-align: center;
 }
 
 #diagnostics {
     color: #FF3300;
+}
+
+#generalServicesDescription{
+    color:#0066FF;
 }
 
 .media {
@@ -253,7 +264,8 @@ a {
 }
 
 .services .media-object {
-    background-color: #e3eff8;
+   /*light blue: background-color: #e3eff8; */
+   background-color: black;
 }
 
 .services .warningLight {
@@ -271,7 +283,8 @@ a {
 .icon-car {
     font-size: 3.5em;
     /*color: #808e96; gray */
-    color: #475E8A;
+    color:#0066FF;
+    /*color: #475E8A; blue */
     padding: 5px;
     text-align: center;
 }
