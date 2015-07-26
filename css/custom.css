@@ -248,7 +248,6 @@ a {
 }
 
 #generalServicesDescription{
-    color:#0066FF;
 }
 
 .media {
@@ -263,10 +262,7 @@ a {
     padding-top: 10px;
 }
 
-.services .media-object {
-   /*light blue: background-color: #e3eff8; */
-   background-color: black;
-}
+
 
 .services .warningLight {
     background-color: black;
@@ -277,13 +273,17 @@ a {
     color: #FF3300;
 }
 
+.services .generalMaintenance{
+        background-color: #F2F2F3;
+    color: black;
+}
 .services .media-body {
 }
 
 .icon-car {
     font-size: 3.5em;
     /*color: #808e96; gray */
-    color:#0066FF;
+    color:#E9EAEA;
     /*color: #475E8A; blue */
     padding: 5px;
     text-align: center;
